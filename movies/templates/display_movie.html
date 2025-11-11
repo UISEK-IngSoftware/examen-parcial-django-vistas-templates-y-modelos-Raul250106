@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="font-family: 'Momo Trust Display', sans-serif; font-weight: 400; font-style: normal;">
+      <h3 class="text-center m-4">{{ Peliculas.name }}</h3>
+      <ul>
+        <li>Genero: {{ Peliculas.gender }}</li> <br>
+        <li>Director: {{ Peliculas.director }}</li> <br>
+        <li>Fecha de lanzamiento: {{ Peliculas.year }}</li> <br>
+        <li>Sinopsis: {{ Peliculas.sinopsis }}</li> <br>
+      </ul>
+    </div>
+{% endblock %}
